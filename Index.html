@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sisindri VibeTech | Code the Future. Feel the Vibe.</title>
+    <style>
+        /* CSS Styles */
+        :root {
+            --blue: #1E90FF;
+            --purple: #8A2BE2;
+            --white: #FFFFFF;
+            --dark: #1e1e1e;
+            --font: 'Arial', sans-serif;
+        }
+
+        body {
+            font-family: var(--font);
+            margin: 0;
+            padding: 0;
+            background-color: var(--white);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+
+        header {
+            background: var(--dark);
+            color: var(--white);
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: var(--blue);
+        }
+        
+        header .tagline {
+            font-size: 0.8em;
+            color: var(--purple);
+            margin-left: 10px;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: var(--blue);
+        }
+
+        .hero {
+            background: linear-gradient(135deg, var(--dark) 0%, #3a3a3a 100%);
+            color: var(--white);
+            padding: 100px 5%;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.5em;
+            color: var(--purple);
+            margin-top: 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: var(--blue);
+            color: var(--white);
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 30px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--purple);
+        }
+
+        section {
+            padding: 60px 5%;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 40px;
+            color: var(--dark);
+        }
+
+        .services-grid {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 30px;
+        }
+
+        .service-card {
+            background: #f7f7f7;
+            padding: 30px;
+            border-radius: 8px;
+            width: 45%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s;
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .service-card h3 {
+            color: var(--purple);
+            margin-top: 0;
+        }
+
+        footer {
+            background: var(--dark);
+            color: var(--white);
+            text-align: center;
+            padding: 30px 5%;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div>
+            <span class="logo">Sisindri VibeTech</span>
+            <span class="tagline">| Tech with a Pulse.</span>
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Code the Future. Feel the Vibe.</h1>
+        <p>Empowering Enterprises Worldwide with Smart Apps, Innovative Websites, and AI-Driven Solutions.</p>
+        <a href="#contact" class="cta-button">Start Your Project Today</a>
+    </div>
+
+    <section id="about">
+        <h2 class="section-title">Who We Are</h2>
+        <p style="max-width: 800px; margin: 0 auto; text-align: center;">At **Sisindri VibeTech**, we blend **creativity, technology, and intelligence** to deliver exceptional digital solutions. Our focus spans cutting-edge mobile apps, responsive websites, and AI-driven software designed to **transform businesses** and create impactful experiences worldwide. Experience the **Vibe of Tomorrow, Today**.</p>
+    </section>
+
+    <section id="services" style="background-color: #f0f0f0;">
+        <h2 class="section-title">What We Do</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <h3>Web Development</h3>
+                <p>Modern, responsive, and high-performance websites built for businesses, e-commerce, and startups using the latest frameworks.</p>
+            </div>
+            <div class="service-card">
+                <h3>Mobile App Development</h3>
+                <p>Innovative Android & iOS applications with unparalleled UI/UX, designed for market success and user retention.</p>
+            </div>
+            <div class="service-card">
+                <h3>AI Solutions</h3>
+                <p>Smart, AI-driven tools and automation platforms to optimize enterprise operations, data analysis, and decision-making.</p>
+            </div>
+            <div class="service-card">
+                <h3>Digital Consulting</h3>
+                <p>Strategic guidance for digital growth, technology transformation, and market-entry strategy across global industries.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Get in Touch</h2>
+        <div style="text-align: center;">
+            <p>Ready to experience the **VibeTech** difference?</p>
+            <p><strong>Email:</strong> info@sisindrivibetech.com</p>
+            <p><strong>Phone:</strong> +91 XXXXX XXXXX</p>
+            <p>Follow us: <a href="#" style="color: var(--blue);">LinkedIn</a> | <a href="#" style="color: var(--blue);">Twitter</a> | <a href="#" style="color: var(--blue);">Instagram</a></p>
+            <p style="margin-top: 30px;">[Contact Form Mockup: Name, Email, Message, Submit Button]</p>
+        </div>
+    </section>
+
+    <footer>
+        &copy; 2025 Sisindri VibeTech. All rights reserved. | Tech with a Pulse.
+    </footer>
+
+</body>
+</html>
